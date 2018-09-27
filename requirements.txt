@@ -1,0 +1,8 @@
+#Fill in dependencies here
+
+aiohttp
+cchardet
+aiodns
+aiohttp-swagger
+aiohttp_cors
+

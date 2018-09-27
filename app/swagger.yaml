@@ -1,0 +1,19 @@
+tags:
+- get_platsannons
+summary: Returnerar en enskild platsannons utifrån ett uuid
+description: Returnerar alla fält i en platsannons
+operationId: get_platsannons
+produces:
+- application/json
+parameters:
+- name: uuid
+  in: path
+  required: false
+  description: UUID för platsannonsen.
+  schema:
+    type : string
+    minimum: 1
+    example: '2e378b60-828e-33a5-b85b-ae9664871b59'
+responses:
+  '200':
+    description: OK
